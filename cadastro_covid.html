@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro - COVID19</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="top"><h2>Cadastro - Profissionais de saude!</h2></header> 
+	<hr>
+
+	<section class="formulario">
+
+		<form action="cadastro_covid.php" method="POST">
+			<div class="linha">
+				<label class="label-form">Nome:</label>
+				<input type="text" name="nome" class="form" id="nome" required placeholder="Digite seu nome">
+
+				<label class="label-form">CPF:</label>
+				<input type="text" name="cpf" class="form" id="cpf" required placeholder="Digite seu CPF">
+
+				<label class="label-form">Profissão:</label>
+				<input type="text" name="profissao" class="form" id="profissao" required placeholder="Digite sua profissão">
+
+				<label class="label-form">Nº do Registro de classe:</label>
+				<input type="text" name="num_registro" class="form" id="num_registro" required placeholder="Número do órgão de classe">
+				<hr>
+
+				<label class="label-form">Nome da mãe:</label>
+				<input type="text" name="nome_mae" class="form" id="nome_mae" required placeholder="Digite o nome da mãe">
+
+				<label class="label-form">Endereço:</label>
+				<input type="text" name="endereco" class="form" id="endereco" required placeholder="Digite seu endereço">
+
+				<label class="label-form">Data de nascimento:</label>
+				<input type="date" name="data_nasc" class="form" id="data_nasc">
+
+				<label class="label-form">Número do CNS:</label>
+				<input type="text" name="num_cns" class="form" id="num_cns" required placeholder="Digite seu CNS"><br>
+
+				<label class="label-form">Número do prontuário eletrônico:</label>
+				<input type="text" name="num_prontuario" class="form" id="num_prontuario" required placeholder="Digite seu prontuário">
+
+				<label class="label-form">Telefone 1:</label>
+				<input type="text" name="tel1" class="form" id="tel1" required placeholder="Digite seu telefone">
+
+				<label class="label-form">Telefone 2:</label>
+				<input type="text" name="tel2" class="form" id="tel2" required placeholder="Digite outro telefone">
+				<hr>
+
+				<label class="label-form">Local de trabalho:</label>
+				<input type="text" name="local_trabalho" class="form" id="local_trabalho" required placeholder="Digite seu local de trabalho">
+
+				<label class="label-form">CNES do estabelecimento de sáude:</label>
+				<input type="text" name="cnes" class="form" id="cnes" required placeholder="Digite o CNES"><br>
+
+				<label class="label-form">CNPJ do estabelecimento:</label>
+				<input type="text" name="cnpj" class="form" id="cnpj" required placeholder="Digite o CNPJ">
+
+				<label class="label-form">Endereço do estabelecimento:</label>
+				<input type="text" name="end_estabelecimento" class="form" id="end_estabelecimento" required placeholder="Digite o endereço">
+			</div>
+			<div class="botao">
+			<button type="submit" name="cadastrar" value="cadastrar">Cadastrar</button>
+			</div>
+		</form>
+		<hr>
+
+		
+
+	</section>
+</body>
+</html>
